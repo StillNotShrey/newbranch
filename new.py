@@ -55,7 +55,7 @@ a += [3]
 
 def addLst():
     b =[]
-    b += [4]
+    a += [4]
     a.append(333)
     print(a)
     print(b)
