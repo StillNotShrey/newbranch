@@ -1,16 +1,16 @@
-# class Person:
-#     def __init__(this, name, age):
-#         this.name = name
-#         this.age = age
-#         this.display_details() 
-#         print("heelo")
+class Person:
+    def __init__(this, name, age):
+        this.name = name
+        this.age = age
+        # this.display_details() 
+        print("heelo")
 
-#     def display_details(this):
-#         print(f"Name:{this.name}, age: {this.age}")
+    def display_details(this):
+        print(f"Name:{this.name}, age: {this.age}")
 
-# person1 = Person("ABCS", 34)
+deboob = Person("Kolkata", 34)
 
-#person1.display_details()
+deboob.display_details()
 
 
 # class newPerson:
@@ -21,18 +21,18 @@
 #     def rnd(this, *args):
 #         return sum(args)
 
-class callMe:
-    def hello(self):
-        print("Parent class")
+# class callMe:
+#     def hello(self):
+#         print("Parent class")
 
-class callme2(callMe):
-    def hello2(self):
-        super().hello()  
-        print("Child class")
+# class callme2(callMe):
+#     def hello2(self):
+#         super().hello()  
+#         print("Child class")
 
 
-newObj = callme2()
-newObj.hello2() 
+# newObj = callme2()
+# newObj.hello2() 
 
 # print(newObj.rnd(2,3))
 # print(newObj.rnd(15,90,9))
